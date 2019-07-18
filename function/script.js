@@ -9,7 +9,9 @@ function sayEidMurak(getName) {
     return "Eid Mubarak  " + getName;
 
 }
-function giveLength(letter) {
+// another way of declaring function 
+// when we have to assign a varible 
+let  giveLength= function (letter) {
     return letter.length;
 
 }
@@ -25,6 +27,9 @@ let human = {
     name:"Sara",
     age:55,
     isHappy:false,
+    eat: function(food){
+        console.log("Eating "+food+"");
+    },
     address:{
         street:"House no 1, Lane 5",
         city:"KArchi",
@@ -34,3 +39,4 @@ let human = {
     hobbies:["watching movies","Playin games"]
 
 }
+
